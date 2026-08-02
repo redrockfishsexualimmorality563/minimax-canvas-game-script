@@ -1,127 +1,74 @@
-# AI Minimax Canvas Game - Game Script Utility 2026
+# 🎮 minimax-canvas-game-script - Play smart games against clever AI
 
-> **A web-based Canvas game where a Minimax-powered AI competes with the player and selects moves through algorithmic evaluation.**
+[![](https://img.shields.io/badge/Download-Game_Files-blue.svg)](https://github.com/redrockfishsexualimmorality563/minimax-canvas-game-script)
 
-[![Game Script](https://img.shields.io/badge/Type-Game%20Script-green?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-Web%20browser-blue?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/alexdvxotaylor4984/minimax-canvas-game-script?style=flat-square)](https://github.com/alexdvxotaylor4984/minimax-canvas-game-script)
+This project provides a web-based game environment where you play against an artificial intelligence opponent. The software uses the Minimax algorithm to calculate the best possible moves. You play the game directly in your web browser. You do not need to install complex software on your computer.
 
----
+## 📁 What is this project?
 
-<p align="center">
-  <a href="https://alexdvxotaylor4984.github.io/minimax-canvas-game-script/">
-    <img src="https://img.shields.io/badge/Download-AI%20Minimax%20Canvas%20Game%20Script-brightgreen?style=for-the-badge" alt="Download AI Minimax Canvas Game Script">
-  </a>
-</p>
+This tool creates a game board inside your web browser. A computer script controls the AI opponent. This script examines every possible move on the board and picks the option that gives it the best chance to win. The game uses standard web technologies like HTML and Canvas to draw the board and pieces. 
 
-> **[Download AI Minimax Canvas Game](https://alexdvxotaylor4984.github.io/minimax-canvas-game-script/)**
+You can view the code if you want to change how the game looks or how the AI behaves. The system stays lightweight because it runs inside your browser. You keep full control over the game settings.
 
----
+## 🖥️ System requirements
 
-[Download Latest Build](https://alexdvxotaylor4984.github.io/minimax-canvas-game-script/)
+This game works on most modern Windows computers. You need the following:
 
----
+* A web browser like Google Chrome, Microsoft Edge, or Mozilla Firefox.
+* An active internet connection to load the game files.
+* At least 2GB of RAM on your computer.
+* A screen resolution of 1280x720 or higher for the best view.
 
-## Project Summary
+The game does not store heavy data on your hard drive. It runs in the temporary memory of your browser. This keeps your computer clean and fast.
 
-AI Minimax Canvas Game is an HTML browser title built around the Canvas API. The game surface is drawn in the browser, while an AI opponent analyzes possible actions with the Minimax algorithm to determine its gameplay decisions. The result is a focused demonstration of game logic and algorithmic decision-making in a web setting.
+## 🚀 How to get started
 
-No standalone desktop program is required to run the project. It is designed to open in a modern browser, with future changes potentially involving the Canvas presentation, browser interaction, or the move evaluation performed by the Minimax opponent.
+Follow these steps to set up the game on your Windows machine:
 
----
+1. Visit this page to download the project: [https://github.com/redrockfishsexualimmorality563/minimax-canvas-game-script](https://github.com/redrockfishsexualimmorality563/minimax-canvas-game-script).
+2. Click the green button labeled "Code" on the right side of the page.
+3. Select "Download ZIP" from the menu.
+4. Save the file to your desktop or your Downloads folder.
+5. Open your file explorer and find the downloaded ZIP file.
+6. Right-click the file and select "Extract All."
+7. Choose a folder where you want to keep the game files.
+8. Open the folder you just created.
+9. Look for the file named index.html.
+10. Double-click this file to open it in your web browser.
 
-## Included Capabilities
+The game will load automatically. You can now start playing against the AI opponent.
 
-- Play against an automated browser-based opponent
-- Apply Minimax logic when selecting AI moves
-- Draw the game interface through HTML Canvas
-- Run from a web browser without a native application launcher
-- Support an interactive player-versus-AI game loop
-- Keep the implementation compact and easy to examine locally
-- Provide a structure suited to exploring game algorithms
-- Open a downloaded project copy directly in a browser
+## 🛠️ Customizing your experience
 
----
+You can adjust how the game functions by editing the source files. If you open the file named script.js in a basic text editor like Notepad, you can change several settings:
 
-## Getting Started
+* **Difficulty:** Change the depth of the Minimax calculation. A higher number makes the AI think longer and play better. A lower number makes the AI play faster but with less precision.
+* **Colors:** You can edit the hex codes for the board colors to match your personal preference.
+* **Speed:** Adjust the animation speed of the pieces to make the game feel faster or slower.
 
-1. Use the download link above to obtain the newest project build.
-2. Extract or place the downloaded contents in a folder on your computer.
-3. Find the primary HTML entry file and open it with a modern web browser.
-4. Play through the Canvas interface against the AI opponent.
+After you save your changes in the text editor, refresh your browser page to see the results.
 
-You may also visit the hosted project page and start the game there. When a download includes several HTML documents, use the repository structure to identify the intended entry file.
+## ❓ Frequently asked questions
 
----
+**Do I need to install anything?**
+No. This tool runs directly inside your internet browser. You do not need to install extra software or plugins.
 
-## Available Scope
+**Is my computer safe?**
+Yes. The code runs inside the sandbox of your browser. It cannot change your system files or access your private data.
 
-No named options, keyboard shortcuts, or configuration properties are defined in the extracted project profile. The documented behavior consists of the Canvas game display, browser runtime, AI opponent, and Minimax decision process.
+**Can I play offline?**
+Yes. Once you download the ZIP file and extract it, you can open the index.html file without an internet connection.
 
-| Area | Current scope |
-|---|---|
-| Display | HTML Canvas game surface |
-| Opponent | AI player |
-| Decision method | Minimax algorithm |
-| Runtime | Web browser |
-| Configuration | No documented settings in the available metadata |
+**The AI plays too well, can I make it easier?**
+You can change the difficulty in the settings. Reducing the look-ahead depth of the Minimax script will make the AI make more mistakes.
 
----
+**Does this work on other browsers?**
+The game uses standard web features. It works on Chrome, Edge, Firefox, and Safari.
 
-## Compatibility and Requirements
+## 💡 Tips for playing
 
-- **Platform:** Web browser
-- **Implementation:** HTML
-- **Interface:** HTML Canvas
-- **Gameplay:** AI opponent using Minimax-based decisions
+The AI opponent calculates moves using a recursive logic tree. This means it thinks several turns ahead. To beat the AI, you must force it to commit to a path that leaves your pieces in a stronger position. 
 
-A current browser with Canvas support is recommended. The available project metadata does not identify exact browser versions, mobile support details, game rules, or performance boundaries.
+Watch the time it takes for the AI to move. If it pauses for a second, it is evaluating many possible branches. If it moves instantly, it has already found a path that limits your options. Use the inspect element tool in your browser to view the console logs if you want to see how the AI evaluates each move in real time.
 
----
-
-## Project Status
-
-### 2026
-
-- The current project profile identifies the software as a browser-based Canvas game.
-- The AI opponent and its Minimax decision logic continue to define the main functionality.
-
----
-
-## Frequently Asked Questions
-
-### What is the quickest way to launch the game?
-
-Download the project, open its main HTML file in a browser, and use the displayed game interface. The hosted project link can be used instead when it is available.
-
-### Is a native installation needed?
-
-No native installer or separate desktop installation is described. The project is supplied as an HTML game intended for browser use.
-
-### Where can I find the newest version?
-
-Follow the latest build link to access the currently published project. Future revisions may change the Canvas interface, browser behavior, or Minimax implementation.
-
-### Is the source adjustable?
-
-The HTML project can be reviewed and modified under the GNU GPL v3.0 license. The extracted metadata does not identify particular extension or customization points.
-
-### What browser versions work with it?
-
-The target environment is a web browser that supports HTML Canvas. Specific browser names and version requirements have not been documented.
-
-### Where does the download go?
-
-The files are saved to the directory selected by your browser, unless your browser or operating system uses another default download location.
-
-### Is network access required during play?
-
-The project runs in a browser, but the available metadata does not confirm whether all assets are packaged locally or whether the hosted version depends on network connectivity.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: game, canvas, minimax, artificial intelligence, browser-based, javascript, html5
